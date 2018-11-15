@@ -24,6 +24,47 @@
             app:lbTextColor="@android:color/black"
             app:lbTextSize="14sp"/>
 
+        <cw.yunussimulya.gmail.com.cw.TitleTextView
+            android:id="@+id/ttv"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:ttvTextTitle="Title"
+            app:ttvTextError="Error is here"
+            app:ttvTextHint="Hint"
+            app:ttvColorContent="#000000"
+            app:ttvColorError="#FF0000"
+            app:ttvColorTitle="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/bClearTTV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="clear" />
+
+            <Button
+                android:id="@+id/bFillTTV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Fill" />
+
+            <Button
+                android:id="@+id/bErrorTTV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ERROR" />
+
+        </LinearLayout>
+
     </LinearLayout>
 
 </ScrollView>

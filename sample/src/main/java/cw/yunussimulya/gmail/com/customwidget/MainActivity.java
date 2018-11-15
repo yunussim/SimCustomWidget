@@ -6,8 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import cw.yunussimulya.gmail.com.cw.LoadingButton;
-import cw.yunussimulya.gmail.com.cw.TitleTextView;
+import cw.yunussimulya.gmail.com.library.widget.LoadingButton;
+import cw.yunussimulya.gmail.com.library.widget.TitleTextView;
 
 public class MainActivity extends AppCompatActivity {
 

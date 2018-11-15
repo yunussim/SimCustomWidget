@@ -1,4 +1,4 @@
-package cw.yunussimulya.gmail.com.cw;
+package cw.yunussimulya.gmail.com.library.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -15,6 +15,8 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
+
+import cw.yunussimulya.gmail.com.library.R;
 
 public class TitleTextView extends LinearLayout {
 

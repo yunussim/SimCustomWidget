@@ -1,4 +1,4 @@
-package cw.yunussimulya.gmail.com.cw.view;
+package cw.yunussimulya.gmail.com.library.view;
 
 import android.graphics.Rect;
 import android.support.v7.widget.GridLayoutManager;
@@ -48,7 +48,7 @@ public class GridMultipleSpanDecoration extends RecyclerView.ItemDecoration {
                 }
                 int itemPos = position - (lastFullSpanPos >= 0 ? lastFullSpanPos : 0);
                 int column = itemPos % maxSpan;
-                
+
                 switch (column) {
                     case 1 :
                         if (includeEdge) {

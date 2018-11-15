@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <cw.yunussimulya.gmail.com.cw.LoadingButton
+        <cw.yunussimulya.gmail.com.library.widget.LoadingButton
             android:id="@+id/loadingButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
             app:lbTextColor="@android:color/black"
             app:lbTextSize="14sp"/>
 
-        <cw.yunussimulya.gmail.com.cw.TitleTextView
+        <cw.yunussimulya.gmail.com.library.widget.TitleTextView
             android:id="@+id/ttv"
             android:layout_marginTop="16dp"
             android:layout_width="match_parent"

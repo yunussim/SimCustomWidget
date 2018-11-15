@@ -1,4 +1,4 @@
-package cw.yunussimulya.gmail.com.cw.view;
+package cw.yunussimulya.gmail.com.library.view;
 
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;

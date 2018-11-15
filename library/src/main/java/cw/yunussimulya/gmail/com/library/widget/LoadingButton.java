@@ -1,4 +1,4 @@
-package cw.yunussimulya.gmail.com.cw;
+package cw.yunussimulya.gmail.com.library.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -12,6 +12,8 @@ import android.util.TypedValue;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
+
+import cw.yunussimulya.gmail.com.library.R;
 
 public class LoadingButton extends RelativeLayout {
 

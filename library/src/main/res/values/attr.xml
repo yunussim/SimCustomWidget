@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LoadingButton">
+        <attr name="lbText" format="string" />
+        <attr name="lbTextColor" format="color" />
+        <attr name="lbTextSize" format="dimension" />
+        <attr name="lbLoadingColor" format="color" />
+    </declare-styleable>
+
+</resources>

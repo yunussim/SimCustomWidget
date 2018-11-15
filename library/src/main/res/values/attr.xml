@@ -8,4 +8,15 @@
         <attr name="lbLoadingColor" format="color" />
     </declare-styleable>
 
+    <declare-styleable name="TitleTextView">
+        <attr name="ttvTextTitle" format="string" />
+        <attr name="ttvTextHint" format="string" />
+        <attr name="ttvTextError" format="string" />
+        <attr name="ttvColorTitle" format="color" />
+        <attr name="ttvColorContent" format="color" />
+        <attr name="ttvColorError" format="color" />
+        <attr name="ttvRightIcon" format="reference"/>
+        <attr name="ttvFont" format="reference"/>
+    </declare-styleable>
+
 </resources>

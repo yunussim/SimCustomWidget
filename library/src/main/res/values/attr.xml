@@ -19,4 +19,11 @@
         <attr name="ttvFont" format="reference"/>
     </declare-styleable>
 
+    <declare-styleable name="VectorTextView">
+        <attr name="vtvDrawableLeft" format="reference"/>
+        <attr name="vtvDrawableRight" format="reference"/>
+        <attr name="vtvDrawableTop" format="reference"/>
+        <attr name="vtvDrawableBottom" format="reference"/>
+    </declare-styleable>
+
 </resources>
